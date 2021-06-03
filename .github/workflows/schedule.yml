@@ -1,12 +1,7 @@
 name: 刷新个人 Github 首页 WakaTime 概览
-
 on:
-  push:
-    branches: master
-
   schedule:
     - cron: "*/10 * * * *"
-
 jobs:
   update-gist:
     runs-on: ubuntu-latest
