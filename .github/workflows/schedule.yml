@@ -1,5 +1,4 @@
 name: 刷新个人 Github 首页 WakaTime 概览
-
 on:
   push:
     branches: master
